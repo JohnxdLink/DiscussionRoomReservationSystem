@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Welcome | Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Styles/GeneralStyle.css" />
 </head>
@@ -118,6 +118,10 @@
                             </div>
                         </div>
                     </div>
+                </section>
+
+                <section class="room-section visit-main-page" style="display: none;  height: 70px;">
+
                 </section>
 
                 <section class="signinup-section">

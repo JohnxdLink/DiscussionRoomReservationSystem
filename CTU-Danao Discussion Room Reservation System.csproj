@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Index.aspx" />
+    <Content Include="Pages\CTU-Discussion-Room.aspx" />
     <Content Include="Resources\Images\CEAS Logo.png" />
     <Content Include="Resources\Images\CME Logo.png" />
     <Content Include="Resources\Images\COE Logo.png" />
@@ -86,6 +87,13 @@
     </Compile>
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CTU-Discussion-Room.aspx.cs">
+      <DependentUpon>CTU-Discussion-Room.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CTU-Discussion-Room.aspx.designer.cs">
+      <DependentUpon>CTU-Discussion-Room.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

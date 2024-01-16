@@ -1,1 +1,70 @@
-﻿
+﻿@media only screen and (min-width: 1024px) {
+    header.header-content {
+        justify-content: space-between;
+        gap: 0px;
+    }
+
+    section.header-divided-left {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #ctu-danao-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    #header-text {
+        font-size: .70em;
+    }
+
+    #ctu-location-text {
+        font-size: .60em;
+    }
+
+    #ctu-library-text {
+        font-size: .50em;
+    }
+
+    .user-admin {
+        font-family: var(--bold-font);
+        font-weight: bold;
+    }
+
+    main.main-content {
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: normal;
+        gap: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    section.left-main-section {
+        width: 35%;
+        padding: 15px;
+    }
+
+    div.section-main-content {
+        width: 100%;
+        height: 100%;
+        box-shadow: 3px 3px 7px #000000;
+        transition-duration: 0.5s;
+    }
+
+        div.section-main-content:hover {
+            box-shadow: 3px 3px 7px #ffffff;
+        }
+
+    section.middle-main-section {
+        width: 30%;
+        padding: 15px 0px 15px 0px;
+    }
+
+    section.right-main-section {
+        width: 35%;
+        padding: 15px;
+    }
+}

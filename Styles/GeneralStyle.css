@@ -30,7 +30,7 @@
 :root {
     --bold-font: Roboto;
     --thin-font: Roboto Thin;
-    --button-font: Arial, Helvetica, sans-serif;    
+    --button-font: Arial, Helvetica, sans-serif;
 }
 
 /* Phone Layout */
@@ -94,6 +94,7 @@ section.system-indicator-section {
     font-size: 4em;
 }
 
+/* Main Content */
 main.main-content {
     margin: 20px 0px 0px 0px;
     display: flex;
@@ -106,14 +107,14 @@ main section.room-section {
     width: 380px;
     height: 140px;
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
     background-color: #1B426C;
     border-radius: 5px;
     box-shadow: 3px 3px 7px #000000;
     transition-duration: 0.5s;
 }
 
-.room-section:hover {
+main.room-section:hover {
     box-shadow: 3px 3px 7px #ffffff;
 }
 
