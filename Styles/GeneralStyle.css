@@ -30,7 +30,7 @@
 :root {
     --bold-font: Roboto;
     --thin-font: Roboto Thin;
-    --button-font: Arial, Helvetica, sans-serif;
+    --button-font: Arial, Helvetica, sans-serif;    
 }
 
 /* Phone Layout */
@@ -104,7 +104,9 @@ main.main-content {
 
 main section.room-section {
     width: 380px;
-    height: 170px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;  
     background-color: #1B426C;
     border-radius: 5px;
     box-shadow: 3px 3px 7px #000000;
@@ -147,3 +149,43 @@ a {
         color: #ffffff;
         box-shadow: 3px 3px 7px #ffffff;
     }
+
+div.department-icon-division {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.department-detail-division {
+    padding: 0px 15px 0px 5px;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-family: var(--bold-font);
+    font-size: 16px;
+}
+
+.department-logo {
+    padding: 5px;
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #001F3F;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+h5.h5-inline-block {
+    display: inline-block;
+}
+
+div.room-num-occupied-stat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

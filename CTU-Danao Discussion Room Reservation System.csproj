@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Index.aspx" />
+    <Content Include="Resources\Images\CEAS Logo.png" />
+    <Content Include="Resources\Images\CME Logo.png" />
+    <Content Include="Resources\Images\COE Logo.png" />
+    <Content Include="Resources\Images\COT Logo.png" />
     <Content Include="Resources\Images\CTU Danao Library Logo.png" />
     <Content Include="Resources\Images\CTU Danao.png" />
     <Content Include="Styles\GeneralStyle.css" />

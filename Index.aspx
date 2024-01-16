@@ -30,20 +30,94 @@
 
             <section class="system-indicator-section">
                 <div class="system-time-date-layout">
-                    <asp:Label ID="Lbl_System_On_Off" runat="server" Text="SYSTEM ONLINE"></asp:Label>
+                    <asp:Label ID="Lbl_System_On_Off" runat="server" Text="SYSTEM ONLINE" />
                 </div>
                 <div class="system-time-date-layout">
-                    <asp:Label ID="Lbl_Time" runat="server" Text="00:00:00AM"></asp:Label>
+                    <asp:Label ID="Lbl_Time" runat="server" Text="00:00:00AM" />
                 </div>
                 <div class="system-time-date-layout">
-                    <asp:Label ID="Lbl_Date" runat="server" Text="00-00-00"></asp:Label>
+                    <asp:Label ID="Lbl_Date" runat="server" Text="00-00-00" />
                 </div>
             </section>
 
             <main class="main-content">
                 <section class="room-section">
+                    <div class="department-icon-division">
+                        <asp:Image CssClass="department-logo" ImageUrl="~/Resources/Images/COT Logo.png" runat="server" />                        
+                    </div>
+
+                    <div class="department-detail-division">
+                        <div class="room-num-occupied-stat">
+                            <div>
+                                <h5 class="h5-inline-block">Room No. </h5>
+                                <asp:Label ID="Lbl_Room_Num" runat="server" Text="01" />
+                            </div>
+                            <div>
+                                <h5 class="h5-inline-block">Status: </h5>
+                                <asp:Label ID="Lbl_Status" runat="server" Text="Occupied" ForeColor="#00ff00" Font-Bold="True" />
+                            </div>
+                        </div>
+
+                        <div class="dept-and-major">
+                            <div>
+                                <h5 class="h5-inline-block">Occupied By: </h5>
+                                <asp:Label ID="Lbl_Department" runat="server" Text="BSIT" />
+                            </div>
+                        </div>
+
+                        <div class="college-year">
+                            <div>
+                                <h5 class="h5-inline-block">Major: </h5>
+                                <asp:Label ID="Lbl_Major" runat="server" Text="Info-Tech" />
+                            </div>
+                        </div>
+
+                        <div class="college-year">
+                            <div>
+                                <h5 class="h5-inline-block">College Year: </h5>
+                                <asp:Label ID="Lbl_College_Year" runat="server" Text="2nd Year" />
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section class="room-section">
+                    <div class="department-icon-division">
+                        <asp:Image CssClass="department-logo" ImageUrl="~/Resources/Images/CEAS Logo.png" runat="server" />                        
+                    </div>
+
+                    <div class="department-detail-division">
+                        <div class="room-num-occupied-stat">
+                            <div>
+                                <h5 class="h5-inline-block">Room No. </h5>
+                                <asp:Label ID="Label1" runat="server" Text="02" />
+                            </div>
+                            <div>
+                                <h5 class="h5-inline-block">Status: </h5>
+                                <asp:Label ID="Label2" runat="server" Text="Occupied" ForeColor="#00ff00" Font-Bold="True" />
+                            </div>
+                        </div>
+
+                        <div class="dept-and-major">
+                            <div>
+                                <h5 class="h5-inline-block">Occupied By: </h5>
+                                <asp:Label ID="Label3" runat="server" Text="BEED" />
+                            </div>
+                        </div>
+
+                        <div class="college-year">
+                            <div>
+                                <h5 class="h5-inline-block">Major: </h5>
+                                <asp:Label ID="Label4" runat="server" Text="Science" />
+                            </div>
+                        </div>
+
+                        <div class="college-year">
+                            <div>
+                                <h5 class="h5-inline-block">College Year: </h5>
+                                <asp:Label ID="Label5" runat="server" Text="1st Year" />
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
                 <section class="signinup-section">
