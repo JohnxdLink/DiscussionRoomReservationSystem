@@ -40,6 +40,18 @@
             <main class="main-content">
                 <section class="left-main-section">
                     <div class="section-main-content">
+                        <section class="room-title">
+                            <div>
+                                <img class="icon" src="../Resources/Icons/icons8-meeting-room-100.png" alt="meetin-room" />
+                            </div>
+                            <div>
+                                <h3 class="discussion-layout">DISCUSSION ROOM NO. 1</h3>
+                            </div>
+                        </section>
+                        <section class="room-main-view">
+                        </section>
+                        <section class="room-queue-view">
+                        </section>
                     </div>
                 </section>
                 <section class="middle-main-section">

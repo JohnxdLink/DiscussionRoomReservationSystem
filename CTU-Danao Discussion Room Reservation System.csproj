@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Index.aspx" />
     <Content Include="Pages\CTU-Discussion-Room.aspx" />
+    <Content Include="Resources\Icons\icons8-meeting-room-100.png" />
     <Content Include="Resources\Images\CEAS Logo.png" />
     <Content Include="Resources\Images\CME Logo.png" />
     <Content Include="Resources\Images\COE Logo.png" />
@@ -106,6 +107,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
