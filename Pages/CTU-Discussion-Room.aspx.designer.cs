@@ -15,21 +15,12 @@ namespace CTU_Danao_Discussion_Room_Reservation_System.Pages
     {
 
         /// <summary>
-        /// form1 control.
+        /// room_form control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// Lbl_User_Admin control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lbl_User_Admin;
+        protected global::System.Web.UI.HtmlControls.HtmlForm room_form;
     }
 }

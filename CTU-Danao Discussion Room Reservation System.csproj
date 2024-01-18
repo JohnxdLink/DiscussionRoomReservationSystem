@@ -69,16 +69,14 @@
   <ItemGroup>
     <Content Include="Index.aspx" />
     <Content Include="Pages\CTU-Discussion-Room.aspx" />
-    <Content Include="Resources\Icons\icons8-meeting-room-100.png" />
     <Content Include="Resources\Images\CEAS Logo.png" />
     <Content Include="Resources\Images\CME Logo.png" />
     <Content Include="Resources\Images\COE Logo.png" />
     <Content Include="Resources\Images\COT Logo.png" />
     <Content Include="Resources\Images\CTU Danao Library Logo.png" />
     <Content Include="Resources\Images\CTU Danao.png" />
-    <Content Include="Styles\GeneralStyle.css" />
-    <Content Include="Styles\PCStyle.css" />
-    <Content Include="Styles\TabletStyle.css" />
+    <Content Include="Resources\Text File\Color Palette.txt" />
+    <Content Include="Styles\Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -107,7 +105,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Resources\Icons\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
