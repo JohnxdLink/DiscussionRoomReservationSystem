@@ -43,17 +43,17 @@
     }
 
     section.left-main-section {
-        width: 35%;
+        width: 37.5%;
         padding: 15px;
     }
 
     section.middle-main-section {
-        width: 30%;
+        width: 25%;
         padding: 15px 0px 15px 0px;
     }
 
     section.right-main-section {
-        width: 35%;
+        width: 37.5%;
         padding: 15px;
     }
 
@@ -90,11 +90,77 @@
 
     section.room-main-view {
         height: 60%;
-        background-color: #313131;
+        font-size: 18px;
+        font-family: var(--bold-font);
+    }
+
+    div.room-one-view {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.status-room-one {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #585858;
+    }
+
+    div.dept-image-room-one {
+        width: 55%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #787878;
+    }
+
+    .occupied-text {
+        font-size: 1.50em;
+    }
+
+    div.next-queue-dept {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #282828;
+    }
+
+    div.legend-queue-dept {
+        display: flex;
+        flex-direction: row;
+    }
+
+    fieldset.next-queue {
+        width: 100vh;
+    }
+
+    legend.next-queue-text {
+        font-size: .80em;
+        padding: 3px 10px 3px 10px;
+        margin: 0px 0px 5px 5px;
+        background-color: #1A3552;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
     }
 
     section.room-queue-view {
         height: 30%;
-        background-color: #464646;
+    }
+
+    .main-image-dept {
+        width: 190px;
+        height: 190px;
+    }
+
+    .small-image-dept {
+        width: 50px;
+        height: 50px;
     }
 }

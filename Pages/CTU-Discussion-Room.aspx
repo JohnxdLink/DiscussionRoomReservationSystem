@@ -49,6 +49,31 @@
                             </div>
                         </section>
                         <section class="room-main-view">
+                            <div class="room-one-view">
+                                <div class="status-room-one">
+                                </div>
+                                <div class="dept-image-room-one">
+                                    <div>
+                                        <asp:Label CssClass="occupied-text" Text="OCCUPIED" runat="server" />
+                                    </div>
+                                    <div class="main-image">
+                                        <asp:Image CssClass="main-image-dept" ImageUrl="~/Resources/Images/COT Logo.png" runat="server" />
+                                    </div>
+                                    <div class="next-queue-dept">
+                                        <fieldset class="next-queue">
+                                            <legend class="next-queue-text">Next Queue:</legend>
+                                            <div class="legend-queue-dept">
+                                                <div>
+                                                    <asp:Label Text="CEAS Department" runat="server" />
+                                                </div>
+                                                <div>
+                                                    <asp:Image CssClass="small-image-dept" ImageUrl="~/Resources/Images/COE Logo.png" runat="server" />
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </div>
                         </section>
                         <section class="room-queue-view">
                         </section>
