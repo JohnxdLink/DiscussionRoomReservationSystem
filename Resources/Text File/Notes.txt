@@ -1,0 +1,24 @@
+﻿/*  BLOCK ELEMENT MODIFIER (BEM)
+    .block {...}
+    .block__element {...}
+    .block--modifier {...}
+*/
+
+
+
+/* Color Palette 1
+    Deep Blue:     #001F3F
+    Ocean Blue:    #0074D9
+    Light Blue:    #7FDBFF
+    Silver Gray:   #B4CCB9
+    White:         #FFFFFF
+*/
+
+/* Color Palette 2
+    Gold:          #DBB356
+    Lion:          #B58D5B
+    Licorice:      #1E120E
+    Black:         #000000
+    Red:           #e00000
+    Midnight Blue: #282469
+*/

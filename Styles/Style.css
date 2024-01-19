@@ -7,3 +7,12 @@
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+:root {
+    --header-font: 'Montserrat', Arial, Helvetica, sans-serif;
+    --body-font: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
