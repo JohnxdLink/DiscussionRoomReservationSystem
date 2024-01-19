@@ -76,7 +76,8 @@
     <Content Include="Resources\Images\CTU Danao Library Logo.png" />
     <Content Include="Resources\Images\CTU Danao.png" />
     <Content Include="Resources\Text File\Notes.txt" />
-    <Content Include="Styles\Style.css" />
+    <Content Include="Styles\D-Room-Style.css" />
+    <Content Include="Styles\Index-Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

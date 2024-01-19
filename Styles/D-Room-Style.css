@@ -1,0 +1,57 @@
+﻿@import url('Index-Style.css');
+
+body.whole-content {
+    width: 100%;
+    height: 100%;
+}
+
+section.phone-size {
+    display: block;
+}
+
+section.tablet-size, section.main-content {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    section.phone-size {
+        display: none;
+    }
+
+    section.tablet-size {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    section.main-content {
+        display: block;
+    }
+
+    section.phone-size, section.tablet-size {
+        display: none;
+    }
+
+    header.header--layout {
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: var(--header-font);
+        gap: 5px;
+    }
+
+    img.header--logo-layout {
+        width: var(--ctu-logo-width);
+        height: var(--ctu-logo-height);
+    }
+
+    div.header__ctu-text--layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h4.header--reservation-layout {
+        font-weight: 600;
+    }
+}

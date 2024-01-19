@@ -13,12 +13,21 @@
     <meta name="author" content="Castro John Christian" />
     <title>Welcome | Home</title>
 
-    <link rel="stylesheet" href="Styles/Style.css" />
+    <link rel="stylesheet" href="Styles/Index-Style.css" />
 </head>
-<body>
+<body class="index-whole-content">
     <form id="index_form" runat="server">
-        <div class="whole-content">
-        </div>
+        <header>
+
+        </header>
+
+        <main>
+
+        </main>
+
+        <footer>
+
+        </footer>
     </form>
 </body>
 </html>
