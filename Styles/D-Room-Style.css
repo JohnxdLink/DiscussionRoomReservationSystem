@@ -1,10 +1,5 @@
 ﻿@import url('Index-Style.css');
 
-body.whole-content {
-    width: 100%;
-    height: 100%;
-}
-
 section.phone-size {
     display: block;
 }
@@ -25,7 +20,9 @@ section.tablet-size, section.main-content {
 
 @media only screen and (min-width: 1000px) {
     section.main-content {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
     }
 
     section.phone-size, section.tablet-size {
@@ -33,7 +30,8 @@ section.tablet-size, section.main-content {
     }
 
     header.header--layout {
-        padding: 5px;
+        height: 10vh;
+        padding: 0px 0px 0px 7px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -53,5 +51,54 @@ section.tablet-size, section.main-content {
 
     h4.header--reservation-layout {
         font-weight: 600;
+    }
+
+    main.main--layout {
+        width: 100%;
+        height: 87vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside.aside-left--layout {
+        width: 30%;
+        padding: 10px;
+    }
+
+    section.section-left--layout {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        box-shadow: 3px 5px 10px #000000;
+    }
+
+    aside.aside-right--layout {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.section-top--layout, section.section-bottom--layout {
+        height: 50%;
+        padding: 10px;
+    }
+
+    section.section-top-main--layout {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        box-shadow: 3px 5px 10px #000000;
+    }
+
+    section.section-bottom-main--layout {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        box-shadow: 3px 5px 10px #000000;
+    }
+
+    footer.footer--layout {
+        height: 3vh;
     }
 }

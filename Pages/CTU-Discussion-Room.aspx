@@ -33,10 +33,28 @@
                 </div>
             </header>
 
-            <main>
+            <main class="main main--layout">
+                <aside class="main__aside-left aside-left--layout">
+                    <section class="aside-left__section-left section-left--layout">
+                    </section>
+                </aside>
+
+                <aside class="main__aside-right aside-right--layout">
+                    <section class="aside-right__section-top section-top--layout">
+                        <section class="section-top__main section-top-main--layout">
+                        </section>
+                    </section>
+                    <section class="aside-right__section-bottom section-bottom--layout">
+                        <section class="section-bottom__main section-bottom-main--layout">
+                        </section>
+                    </section>
+                </aside>
             </main>
 
-            <footer>
+            <footer class="footer footer--layout">
+                <div>
+                    <h6>Under Developement</h6>
+                </div>
             </footer>
         </section>
 
