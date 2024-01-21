@@ -39,8 +39,7 @@
                     <section class="aside-left__section-left section-left--layout">
                         <div class="aside-left__notification-content--layout">
                             <div>
-                                <asp:Label CssClass="asp-lbl-system-onoff--layout" Text="●" runat="server" />
-                                <asp:Label CssClass="asp-lbl-system-onoff--layout" Text="Online" runat="server" />
+                                <asp:Label CssClass="asp-lbl-system-onoff--layout" Text="● Online" runat="server" />
                             </div>
                             <div>
                                 <asp:Label CssClass="asp-lbl-email--layout" Text="✉" runat="server" />
@@ -70,6 +69,15 @@
                 <aside class="main__aside-right aside-right--layout">
                     <section class="aside-right__section-top section-top--layout">
                         <section class="section-top__main section-top-main--layout">
+                            <section class="section-top__img--layout">
+                                <asp:Image CssClass="asp-dept-img--layout" ImageUrl="~/Resources/Images/COE Logo.png" runat="server" />
+                            </section>
+                            <section class="section-top__status--layout">
+
+                            </section>
+                            <section class="section-top__queue--layout">
+
+                            </section>
                         </section>
                     </section>
                     <section class="aside-right__section-bottom section-bottom--layout">

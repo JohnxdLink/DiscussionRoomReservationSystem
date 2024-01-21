@@ -108,9 +108,31 @@ section.tablet-size, section.main-content {
     }
 
     section.section-top-main--layout {
+        padding: 10px;
         width: 100%;
         height: 100%;
+        display: flex;
+        flex-direction: row;
         border-radius: 15px;
+        border: 1px solid #000000;
+    }
+
+    section.section-top__img--layout {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #808080;
+    }
+
+    section.section-top__status--layout {
+        width: 50%;
+        background-color:#1e1e1e ;
+    }
+
+    section.section-top__queue--layout {
+        width: 20%;
+        background-color: #2e2e2e;
     }
 
     section.section-bottom-main--layout {
