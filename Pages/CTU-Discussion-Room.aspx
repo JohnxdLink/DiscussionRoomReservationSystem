@@ -37,13 +37,31 @@
             <main class="main main--layout">
                 <aside class="main__aside-left aside-left--layout">
                     <section class="aside-left__section-left section-left--layout">
-                        <div class="aside-left__notification--layout">
+                        <div class="aside-left__notification-content--layout">
                             <div>
-                                <asp:Label Text="●" runat="server" />
-                                <asp:Label Text="Online" runat="server" />
+                                <asp:Label CssClass="asp-lbl-system-onoff--layout" Text="●" runat="server" />
+                                <asp:Label CssClass="asp-lbl-system-onoff--layout" Text="Online" runat="server" />
                             </div>
                             <div>
                                 <asp:Label CssClass="asp-lbl-email--layout" Text="✉" runat="server" />
+                            </div>
+                        </div>
+
+                        <div class="aside-left__time-content--layout">
+                            <div>
+                                <asp:Label CssClass="asp-lbl-time--layout" Text="00:00:00" runat="server" />
+                            </div>
+                            <div>
+                                <asp:Label CssClass="asp-lbl-date--layout" Text="00/00/2024" runat="server" />
+                            </div>
+                        </div>
+
+                        <div class="aside-left__button-content--layout">
+                            <div>
+                                <asp:Button CssClass="asp-btn--layout" Text="RESERVE" runat="server" />
+                            </div>
+                            <div>
+                                <asp:Button CssClass="asp-btn--layout" Text="QUEUEs" runat="server" />
                             </div>
                         </div>
                     </section>

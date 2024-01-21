@@ -1,9 +1,32 @@
 ﻿@import url('Index-Style.css');
 
+.asp-lbl-system-onoff--layout {
+    font-family: var(--header-font);
+}
+
 .asp-lbl-email--layout {
     padding: 0px 3px 2px 3px;
+    font-family: var(--body-font);
     font-size: 1.2rem;
     color: #ffffff;
     background-color: #000000;
     border-radius: 5px;
+}
+
+.asp-lbl-time--layout {
+    font-family: var(--header-font);
+    font-size: 3.8rem;
+}
+
+.asp-lbl-date--layout {
+    font-family: var(--header-font);
+    font-size: 1.4rem;
+}
+
+.asp-btn--layout {
+    width: 100px;
+    height: 35px;
+    font-family: var(--header-font);
+    font-weight: 600;
+    font-size: .95rem;
 }
