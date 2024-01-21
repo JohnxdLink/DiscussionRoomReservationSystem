@@ -14,6 +14,7 @@
     <title>CTU | Discussion Room</title>
 
     <link rel="stylesheet" href="../Styles/D-Room-Style.css" />
+    <link rel="stylesheet" href="../Styles/Asp-Style.css" />
 </head>
 <body class="whole-content">
     <form id="room_form" runat="server">
@@ -36,9 +37,18 @@
             <main class="main main--layout">
                 <aside class="main__aside-left aside-left--layout">
                     <section class="aside-left__section-left section-left--layout">
+                        <div class="aside-left__notification--layout">
+                            <div>
+                                <asp:Label Text="●" runat="server" />
+                                <asp:Label Text="Online" runat="server" />
+                            </div>
+                            <div>
+                                <asp:Label CssClass="asp-lbl-email--layout" Text="✉" runat="server" />
+                            </div>
+                        </div>
                     </section>
                 </aside>
-
+                    
                 <aside class="main__aside-right aside-right--layout">
                     <section class="aside-right__section-top section-top--layout">
                         <section class="section-top__main section-top-main--layout">

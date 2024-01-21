@@ -1,0 +1,9 @@
+﻿@import url('Index-Style.css');
+
+.asp-lbl-email--layout {
+    padding: 0px 3px 2px 3px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+}

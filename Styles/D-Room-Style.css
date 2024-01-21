@@ -66,10 +66,20 @@ section.tablet-size, section.main-content {
     }
 
     section.section-left--layout {
+        padding: 10px;
         width: 100%;
         height: 100%;
+        display: flex;
+        flex-direction: column;
         border-radius: 15px;
-        box-shadow: 3px 5px 10px #000000;
+        border: 1px solid #000000;
+    }
+
+    div.aside-left__notification--layout {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
     aside.aside-right--layout {
@@ -88,14 +98,12 @@ section.tablet-size, section.main-content {
         width: 100%;
         height: 100%;
         border-radius: 15px;
-        box-shadow: 3px 5px 10px #000000;
     }
 
     section.section-bottom-main--layout {
         width: 100%;
         height: 100%;
         border-radius: 15px;
-        box-shadow: 3px 5px 10px #000000;
     }
 
     footer.footer--layout {
