@@ -65,7 +65,7 @@
                         </div>
                     </section>
                 </aside>
-                    
+
                 <aside class="main__aside-right aside-right--layout">
                     <section class="aside-right__section-top section-top--layout">
                         <section class="section-top__main section-top-main--layout">
@@ -73,15 +73,20 @@
                                 <asp:Image CssClass="asp-dept-img--layout" ImageUrl="~/Resources/Images/COE Logo.png" runat="server" />
                             </section>
                             <section class="section-top__status--layout">
-
                             </section>
                             <section class="section-top__queue--layout">
-
                             </section>
                         </section>
                     </section>
                     <section class="aside-right__section-bottom section-bottom--layout">
                         <section class="section-bottom__main section-bottom-main--layout">
+                            <section class="section-bottom__img--layout">
+                                <asp:Image CssClass="asp-dept-img--layout" ImageUrl="~/Resources/Images/COT Logo.png" runat="server" />
+                            </section>
+                            <section class="section-bottom__status--layout">
+                            </section>
+                            <section class="section-bottom__queue--layout">
+                            </section>
                         </section>
                     </section>
                 </aside>
