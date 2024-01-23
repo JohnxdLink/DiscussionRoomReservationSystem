@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="Index.aspx" />
     <Content Include="Pages\CTU-Discussion-Room.aspx" />
-    <Content Include="Resources\Icons\status.png" />
+    <Content Include="Resources\Icons\it-department.png" />
     <Content Include="Resources\Images\CEAS Logo.png" />
     <Content Include="Resources\Images\CME Logo.png" />
     <Content Include="Resources\Images\COE Logo.png" />

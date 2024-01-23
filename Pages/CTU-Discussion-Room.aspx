@@ -70,7 +70,7 @@
                     <section class="aside-right__section-top section-top--layout">
                         <section class="section-top__main section-top-main--layout">
                             <section class="section-top__img--layout">
-                                <asp:Image CssClass="asp-dept-img--layout" ImageUrl="~/Resources/Images/COE Logo.png" runat="server" />
+                                <asp:Image CssClass="asp-dept-img--layout" ImageUrl="~/Resources/Images/CME Logo.png" runat="server" />
                             </section>
                             <section class="section-top__status--layout">
                                 <section class="section-top__room-status--layout">
@@ -89,6 +89,59 @@
                                             <asp:Label CssClass="asp-fieldset-time--layout" Text="00:00:00" runat="server" />
                                         </div>
                                     </fieldset>
+                                </section>
+
+                                <section class="section-top__group-n-num-timein-college-year--layout">
+                                    <div class="section-top__group--layout">
+                                        <div>
+                                            <h5>Group Name</h5>
+                                        </div>
+                                        <div>
+                                            <asp:Label Text="GPTS" runat="server" />
+                                        </div>
+                                    </div>
+
+                                    <div class="section-top__num--layout">
+                                        <div>
+                                            <h5>Members</h5>
+                                        </div>
+                                        <div>
+                                            <asp:Label Text="00" runat="server" />
+                                        </div>
+                                    </div>
+
+                                    <div class="section-top__college-year--layout">
+                                        <div>
+                                            <h5>College Year</h5>
+                                        </div>
+                                        <div>
+                                            <asp:Label Text="4th Year" runat="server" />
+                                        </div>
+                                    </div>
+
+                                    <div class="section-top__time--layout">
+                                        <div>
+                                            <h5>Time-in</h5>
+                                        </div>
+                                        <div>
+                                            <asp:Label Text="00:00:00" runat="server" />
+                                        </div>
+                                    </div>
+
+                                </section>
+
+                                <section class="section-top__department--layout">
+                                    <div>
+                                        <asp:Image CssClass="asp-section-top__dept_icon--layout" ImageUrl="../Resources/Icons/it-department.png" runat="server" />
+                                    </div>
+                                    <div class="section-top__department-label--layout">
+                                        <div>
+                                            <asp:Label CssClass="asp-section-top-dept-acronym" Text="CEAS" runat="server" />
+                                        </div>
+                                        <div class="section-top__dept-margin--layout">
+                                            <asp:Label CssClass="asp-section-top-dept-meaning" Text="College of Management and Entrepreneurship" runat="server" />
+                                        </div>
+                                    </div>
                                 </section>
                             </section>
 

@@ -36,11 +36,23 @@
     height: 230px;
 }
 
-.asp-fieldset__icons--layout {
-    width: 50px;
-    height: 50px;
+.asp-fieldset-time--layout {
+    font-size: 2.5rem;
 }
 
-.asp-fieldset-time--layout {
-    font-size: 3.4rem;
+.asp-section-top__dept_icon--layout {
+    width: 40px;
+    height: 40px;
+}
+
+.asp-section-top-dept-acronym {
+    font-family: var(--body-font);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.asp-section-top-dept-meaning {
+    font-family: var(--body-font);
+    font-size: .75rem;
+    font-weight: bold;
 }

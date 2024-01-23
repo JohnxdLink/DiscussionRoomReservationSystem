@@ -129,6 +129,7 @@ section.tablet-size, section.main-content {
         width: 45%;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         background-color: #a3a3a3;
     }
 
@@ -144,6 +145,33 @@ section.tablet-size, section.main-content {
         justify-content: center;
     }
 
+    section.section-top__group-n-num-timein-college-year--layout {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    div.section-top__group--layout, div.section-top__num--layout, div.section-top__time--layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.section-top__department--layout {
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.section-top__department-label--layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.section-top__dept-margin--layout {
+        margin: -10px 0px 0px 0px;
+    }
+
+    /* Section 1 Queue */
     section.section-top__queue--layout {
         width: 25%;
         background-color: #2e2e2e;
