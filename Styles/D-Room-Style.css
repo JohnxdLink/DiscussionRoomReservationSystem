@@ -126,12 +126,26 @@ section.tablet-size, section.main-content {
     }
 
     section.section-top__status--layout {
-        width: 50%;
-        background-color:#1e1e1e ;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        background-color: #a3a3a3;
+    }
+
+    section.section-top__room-status--layout {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    div.section-top_fieldset-div--layout {
+        display: flex;
+        justify-content: center;
     }
 
     section.section-top__queue--layout {
-        width: 20%;
+        width: 25%;
         background-color: #2e2e2e;
     }
 
@@ -154,12 +168,12 @@ section.tablet-size, section.main-content {
     }
 
     section.section-bottom__status--layout {
-        width: 50%;
+        width: 45%;
         background-color: #1e1e1e;
     }
 
     section.section-bottom__queue--layout {
-        width: 20%;
+        width: 25%;
         background-color: #2e2e2e;
     }
 

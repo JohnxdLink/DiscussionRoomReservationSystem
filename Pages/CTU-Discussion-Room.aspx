@@ -73,7 +73,25 @@
                                 <asp:Image CssClass="asp-dept-img--layout" ImageUrl="~/Resources/Images/COE Logo.png" runat="server" />
                             </section>
                             <section class="section-top__status--layout">
+                                <section class="section-top__room-status--layout">
+                                    <div>
+                                        <h2>ROOM 1</h2>
+                                    </div>
+                                    <div>
+                                        <asp:Label Text="● VACANT" runat="server" />
+                                    </div>
+                                </section>
+
+                                <section class="section-top__time-remain--layout">
+                                    <fieldset>
+                                        <legend>Time Remaining</legend>
+                                        <div class="section-top_fieldset-div--layout">
+                                            <asp:Label CssClass="asp-fieldset-time--layout" Text="00:00:00" runat="server" />
+                                        </div>
+                                    </fieldset>
+                                </section>
                             </section>
+
                             <section class="section-top__queue--layout">
                             </section>
                         </section>
