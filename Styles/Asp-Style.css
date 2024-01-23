@@ -36,22 +36,22 @@
     height: 230px;
 }
 
-.asp-fieldset-time--layout {
+.asp-lbl-fieldset-time--layout {
     font-size: 2.5rem;
 }
 
-.asp-section-top__dept_icon--layout {
+.asp-dept__img--layout {
     width: 40px;
     height: 40px;
 }
 
-.asp-section-top-dept-acronym {
+.asp-lbl-dept-acronym {
     font-family: var(--body-font);
     font-size: 1.3rem;
     font-weight: bold;
 }
 
-.asp-section-top-dept-meaning {
+.asp-lbl-dept-meaning {
     font-family: var(--body-font);
     font-size: .75rem;
     font-weight: bold;

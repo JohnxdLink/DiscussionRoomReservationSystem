@@ -133,41 +133,42 @@ section.tablet-size, section.main-content {
         background-color: #a3a3a3;
     }
 
-    section.section-top__room-status--layout {
+    section.room-status--layout {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
 
-    div.section-top_fieldset-div--layout {
+    div.fieldset-div--layout {
         display: flex;
         justify-content: center;
     }
 
-    section.section-top__group-n-num-timein-college-year--layout {
+    section.group-n-num-timein-college-year--layout {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
     }
 
-    div.section-top__group--layout, div.section-top__num--layout, div.section-top__time--layout {
+    div.group--layout, div.num--layout, div.college-year--layout, div.time--layout {
         display: flex;
         flex-direction: column;
     }
 
-    section.section-top__department--layout {
+    section.department--layout {
         display: flex;
         flex-direction: row;
+        gap: 5px;
     }
 
-    div.section-top__department-label--layout {
+    div.department-label--layout {
         display: flex;
         flex-direction: column;
     }
 
-    div.section-top__dept-margin--layout {
+    div.dept-margin--layout {
         margin: -10px 0px 0px 0px;
     }
 
@@ -197,7 +198,10 @@ section.tablet-size, section.main-content {
 
     section.section-bottom__status--layout {
         width: 45%;
-        background-color: #1e1e1e;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #a3a3a3;
     }
 
     section.section-bottom__queue--layout {

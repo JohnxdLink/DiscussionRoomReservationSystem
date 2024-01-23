@@ -73,7 +73,7 @@
                                 <asp:Image CssClass="asp-dept-img--layout" ImageUrl="~/Resources/Images/CME Logo.png" runat="server" />
                             </section>
                             <section class="section-top__status--layout">
-                                <section class="section-top__room-status--layout">
+                                <section class="section-top__room room-status--layout">
                                     <div>
                                         <h2>ROOM 1</h2>
                                     </div>
@@ -85,14 +85,14 @@
                                 <section class="section-top__time-remain--layout">
                                     <fieldset>
                                         <legend>Time Remaining</legend>
-                                        <div class="section-top_fieldset-div--layout">
-                                            <asp:Label CssClass="asp-fieldset-time--layout" Text="00:00:00" runat="server" />
+                                        <div class="section-top__fieldset-div fieldset-div--layout">
+                                            <asp:Label CssClass="asp-lbl-fieldset-time--layout" Text="00:00:00" runat="server" />
                                         </div>
                                     </fieldset>
                                 </section>
 
-                                <section class="section-top__group-n-num-timein-college-year--layout">
-                                    <div class="section-top__group--layout">
+                                <section class="section-top__group-n-num-timein-college-year group-n-num-timein-college-year--layout">
+                                    <div class="section-top__group group--layout">
                                         <div>
                                             <h5>Group Name</h5>
                                         </div>
@@ -101,7 +101,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="section-top__num--layout">
+                                    <div class="section-top__num num--layout">
                                         <div>
                                             <h5>Members</h5>
                                         </div>
@@ -110,7 +110,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="section-top__college-year--layout">
+                                    <div class="section-top__college-year college-year--layout">
                                         <div>
                                             <h5>College Year</h5>
                                         </div>
@@ -119,7 +119,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="section-top__time--layout">
+                                    <div class="section-top__time time--layout">
                                         <div>
                                             <h5>Time-in</h5>
                                         </div>
@@ -130,16 +130,16 @@
 
                                 </section>
 
-                                <section class="section-top__department--layout">
+                                <section class="section-top__department department--layout">
                                     <div>
-                                        <asp:Image CssClass="asp-section-top__dept_icon--layout" ImageUrl="../Resources/Icons/it-department.png" runat="server" />
+                                        <asp:Image CssClass="asp-dept__img--layout" ImageUrl="../Resources/Icons/it-department.png" runat="server" />
                                     </div>
-                                    <div class="section-top__department-label--layout">
+                                    <div class="section-top__department-label department-label--layout">
                                         <div>
-                                            <asp:Label CssClass="asp-section-top-dept-acronym" Text="CEAS" runat="server" />
+                                            <asp:Label CssClass="asp-lbl-dept-acronym" Text="CEAS" runat="server" />
                                         </div>
-                                        <div class="section-top__dept-margin--layout">
-                                            <asp:Label CssClass="asp-section-top-dept-meaning" Text="College of Management and Entrepreneurship" runat="server" />
+                                        <div class="section-top__dept-margin dept-margin--layout">
+                                            <asp:Label CssClass="asp-lbl-dept-meaning" Text="College of Management and Entrepreneurship" runat="server" />
                                         </div>
                                     </div>
                                 </section>
@@ -155,6 +155,76 @@
                                 <asp:Image CssClass="asp-dept-img--layout" ImageUrl="~/Resources/Images/COT Logo.png" runat="server" />
                             </section>
                             <section class="section-bottom__status--layout">
+                                <section class="section-bottom__room room-status--layout">
+                                    <div>
+                                        <h2>ROOM 1</h2>
+                                    </div>
+                                    <div>
+                                        <asp:Label Text="● VACANT" runat="server" />
+                                    </div>
+                                </section>
+
+                                <section class="section-bottom__time-remain--layout">
+                                    <fieldset>
+                                        <legend>Time Remaining</legend>
+                                        <div class="section-bottom__fieldset-div fieldset-div--layout">
+                                            <asp:Label CssClass="asp-lbl-fieldset-time--layout" Text="00:00:00" runat="server" />
+                                        </div>
+                                    </fieldset>
+                                </section>
+
+                                <section class="section-bottom__group-n-num-timein-college-year group-n-num-timein-college-year--layout">
+                                    <div class="section-bottom__group group--layout">
+                                        <div>
+                                            <h5>Group Name</h5>
+                                        </div>
+                                        <div>
+                                            <asp:Label Text="GPTS" runat="server" />
+                                        </div>
+                                    </div>
+
+                                    <div class="section-bottom__num num--layout">
+                                        <div>
+                                            <h5>Members</h5>
+                                        </div>
+                                        <div>
+                                            <asp:Label Text="00" runat="server" />
+                                        </div>
+                                    </div>
+
+                                    <div class="section-bottom__college-year college-year--layout">
+                                        <div>
+                                            <h5>College Year</h5>
+                                        </div>
+                                        <div>
+                                            <asp:Label Text="4th Year" runat="server" />
+                                        </div>
+                                    </div>
+
+                                    <div class="section-bottom__time time--layout">
+                                        <div>
+                                            <h5>Time-in</h5>
+                                        </div>
+                                        <div>
+                                            <asp:Label Text="00:00:00" runat="server" />
+                                        </div>
+                                    </div>
+
+                                </section>
+
+                                <section class="section-bottom__department department--layout">
+                                    <div>
+                                        <asp:Image CssClass="asp-dept__img--layout" ImageUrl="../Resources/Icons/it-department.png" runat="server" />
+                                    </div>
+                                    <div class="section-bottom__department-label department-label--layout">
+                                        <div>
+                                            <asp:Label CssClass="asp-lbl-dept-acronym" Text="COT" runat="server" />
+                                        </div>
+                                        <div class="section-bottom__dept-margin dept-margin--layout">
+                                            <asp:Label CssClass="asp-lbl-dept-meaning" Text="College of Technology" runat="server" />
+                                        </div>
+                                    </div>
+                                </section>
                             </section>
                             <section class="section-bottom__queue--layout">
                             </section>
