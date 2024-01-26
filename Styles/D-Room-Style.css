@@ -126,7 +126,7 @@ section.tablet-size, section.main-content {
     }
 
     section.section-top__status--layout {
-        width: 45%;
+        width: 40%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -174,7 +174,9 @@ section.tablet-size, section.main-content {
 
     /* Section 1 Queue */
     section.section-top__queue--layout {
-        width: 25%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
         background-color: #2e2e2e;
     }
 
@@ -197,15 +199,16 @@ section.tablet-size, section.main-content {
     }
 
     section.section-bottom__status--layout {
-        width: 45%;
+        width: 40%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         background-color: #a3a3a3;
     }
 
+    /* Section 2 Queue */
     section.section-bottom__queue--layout {
-        width: 25%;
+        width: 30%;
         background-color: #2e2e2e;
     }
 

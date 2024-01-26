@@ -62,6 +62,9 @@
                             <div>
                                 <asp:Button CssClass="asp-btn--layout" Text="QUEUEs" runat="server" />
                             </div>
+                            <div>
+                                <asp:Button CssClass="asp-btn--layout" Text="Add" runat="server" />
+                            </div>
                         </div>
                     </section>
                 </aside>
@@ -146,9 +149,16 @@
                             </section>
 
                             <section class="section-top__queue--layout">
+                                <div>
+                                    <h2>QUEUE LIST(s)</h2>
+                                </div>
+                                <div class="section-top__queue-list--layout">
+                                    <asp:BulletedList ID="BulletedList1" runat="server"></asp:BulletedList>
+                                </div>
                             </section>
                         </section>
                     </section>
+
                     <section class="aside-right__section-bottom section-bottom--layout">
                         <section class="section-bottom__main section-bottom-main--layout">
                             <section class="section-bottom__img--layout">
@@ -209,7 +219,6 @@
                                             <asp:Label Text="00:00:00" runat="server" />
                                         </div>
                                     </div>
-
                                 </section>
 
                                 <section class="section-bottom__department department--layout">

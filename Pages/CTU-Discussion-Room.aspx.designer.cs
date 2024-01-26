@@ -22,5 +22,14 @@ namespace CTU_Danao_Discussion_Room_Reservation_System.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm room_form;
+
+        /// <summary>
+        /// BulletedList1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.BulletedList BulletedList1;
     }
 }
